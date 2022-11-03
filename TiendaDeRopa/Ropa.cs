@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TiendaDeRopa
 {
-    internal class Class1
+    internal abstract class Ropa : Inventario
     {
+        public Ropa(string color, int talla, string genero) : base(color, talla, genero)
+        {
+        }
     }
 }

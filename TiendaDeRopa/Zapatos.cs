@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TiendaDeRopa
 {
-    internal class Class2
+    internal class Zapatos
     {
     }
 }

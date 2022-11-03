@@ -16,5 +16,11 @@
         public string Color { get => color; set => color = value; }
         public int Talla { get => talla; set => talla = value; }
         public string Genero { get => genero; set => genero = value; }
+
+        public void RegistroInventario()
+        {
+
+
+        }
     }
 }
