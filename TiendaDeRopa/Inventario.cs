@@ -1,6 +1,6 @@
 ﻿namespace TiendaDeRopa
 {
-    public class Inventario
+    public abstract class Inventario
     {
         private string color;
         private int talla;
@@ -17,9 +17,8 @@
         public int Talla { get => talla; set => talla = value; }
         public string Genero { get => genero; set => genero = value; }
 
-        public void RegistroInventario()
+        public abstract void RegistroInventario()
         {
-
 
         }
     }
