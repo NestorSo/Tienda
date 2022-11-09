@@ -8,7 +8,7 @@ namespace TareaDeCurso
             Usuarios();
         }
        Dictionary<string, string> usuarios = new Dictionary<string, string>();
-        frmTiendaDeRopa Tienda = new frmTiendaDeRopa(); 
+        frmRegistro Tienda = new frmRegistro(); 
         public void Usuarios()
         {
             usuarios.Add("Nsoto26007","N2601");
