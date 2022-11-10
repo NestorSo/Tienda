@@ -23,6 +23,8 @@ namespace TareaDeCurso
             if (usuarios.ContainsKey(user) && usuarios.ContainsValue(pass))
             {
                 Tienda.ShowDialog();
+                txtContraseña.Clear();
+                txtUsuario.Clear();
             }
             else
             {
@@ -30,7 +32,7 @@ namespace TareaDeCurso
                     txtContraseña.Clear();
                     txtUsuario.Clear();
                     MessageBox.Show("El usuario ingresado o la contraseña son incorretos vuelva a ingresarlos",
-                        "le quedan " + i-- + " intentos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        "Intente ingresarlos nuevamente ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 
                 
             }
