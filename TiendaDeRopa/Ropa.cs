@@ -8,25 +8,28 @@ namespace TiendaDeRopa
 {
    public class Ropa : Inventario
     {
-        public string talla;
-        public  string tipo;
-        public Ropa(string color, string genero, string tipo, string talla) : base(color, genero)
+        private  string talla;
+        private   string tipo;
+        private int id;
+        public Ropa(string color, string genero, int existencia, string tipo, string talla, int id) : base(color, genero, existencia)
         {
             this.talla = talla;
             this.tipo = tipo;
+            this.Id = id;
         }
-        
+
         public string Tipo { get => tipo; set => tipo = value; }
         public string Talla { get => talla; set => talla = value; }
-     
-        
-
-        List<Ropa> listaRopa = new List<Ropa>();
+        public int Id { get => id; set => id = value; }
 
         public override void RegistroInventario()
         {
-            
-            listaRopa.Add(producto );
+            List<Ropa> listaRopa = new List<Ropa>();
+
+            foreach (var ropa in listaRopa)
+            {
+                listaRopa.Add(ropa);    
+            } 
             
         }
 
