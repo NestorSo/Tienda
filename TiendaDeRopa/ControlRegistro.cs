@@ -15,13 +15,16 @@ namespace TiendaDeRopa
             ListaRopa = new List<Ropa>();
             ListaZapatos = new List<Zapatos>();
 
-            ListaRopa.Add(new Ropa { Color= "rojo",Tipo = "camisa" ,Talla= "s",Genero= "Mujer"});
-            ListaRopa.Add(new Ropa  { id = 2, nombre = "Microsoft" });
-            ListaRopa.Add(new Ropa  { id = 3, nombre = "Sony" });
-            ListaRopa.Add(new Ropa { id = 4, nombre = "Apple" });
+            ListaRopa = new List<Ropa>();
+            ListaZapatos = new List<Zapatos>();
+
+            ListaRopa.Add(new Ropa { color= "rojo", Genero = "Dama", Talla="M", Tipo= "camisa" });
+     
+            ListaZapatos.Add(new Zapatos { Color = "negro", Genero  = "Hombre", Talla = 40, tipo = "deportivo" });
+     
 
 
-   
+
 
         }
     }

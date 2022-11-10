@@ -30,7 +30,6 @@
         {
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnInicio = new System.Windows.Forms.Button();
@@ -55,15 +54,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Digite su usuario ";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(380, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 15);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Inicio de Sesion ";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -82,9 +72,9 @@
             // 
             // btnInicio
             // 
-            this.btnInicio.Location = new System.Drawing.Point(60, 288);
+            this.btnInicio.Location = new System.Drawing.Point(186, 271);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(88, 23);
+            this.btnInicio.Size = new System.Drawing.Size(88, 28);
             this.btnInicio.TabIndex = 5;
             this.btnInicio.Text = "Iniciar sesion ";
             this.btnInicio.UseVisualStyleBackColor = true;
@@ -92,7 +82,7 @@
             // 
             // btoSalir
             // 
-            this.btoSalir.Location = new System.Drawing.Point(205, 288);
+            this.btoSalir.Location = new System.Drawing.Point(60, 276);
             this.btoSalir.Name = "btoSalir";
             this.btoSalir.Size = new System.Drawing.Size(87, 23);
             this.btoSalir.TabIndex = 6;
@@ -102,7 +92,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TareaDeCurso.Properties.Resources.store_1338629_960_720;
-            this.pictureBox1.Location = new System.Drawing.Point(380, 104);
+            this.pictureBox1.Location = new System.Drawing.Point(418, 135);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(316, 207);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,13 +103,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btoSalir);
             this.Controls.Add(this.btnInicio);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUsuario);
             this.Name = "frmLogin";
@@ -134,7 +124,6 @@
 
         private TextBox txtUsuario;
         private Label label1;
-        private Label label2;
         private Label label3;
         private TextBox txtContraseña;
         private Button btnInicio;
