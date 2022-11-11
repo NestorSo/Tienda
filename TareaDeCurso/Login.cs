@@ -22,9 +22,11 @@ namespace TareaDeCurso
             int i = 5;
             if (usuarios.ContainsKey(user) && usuarios.ContainsValue(pass))
             {
-                Tienda.ShowDialog();
                 txtContraseña.Clear();
                 txtUsuario.Clear();
+                this.Hide();
+                Tienda.Show                                       ();
+              
             }
             else
             {

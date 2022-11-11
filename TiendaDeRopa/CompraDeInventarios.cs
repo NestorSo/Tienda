@@ -9,6 +9,10 @@ namespace TiendaDeRopa
     internal class CompraDeInventarios
     {
         
+        Ropa producto = new Ropa("", "",0,"","",id:0);
+        
+
+
 
     }
 }
