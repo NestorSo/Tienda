@@ -11,7 +11,8 @@ namespace TiendaDeRopa
         private  string talla;
         private   string tipo;
         private int id;
-        public Ropa(string color, string genero, int existencia, string tipo, string talla, int id) : base(color, genero, existencia)
+
+        public Ropa(string color, string genero, int existencia, string tipo, string talla, int id,int precio) : base(color, genero, existencia,precio)
         {
             this.talla = talla;
             this.tipo = tipo;

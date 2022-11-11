@@ -25,7 +25,7 @@ namespace TareaDeCurso
                 txtContraseña.Clear();
                 txtUsuario.Clear();
                 this.Hide();
-                Tienda.Show                                       ();
+                Tienda.Show();
               
             }
             else
