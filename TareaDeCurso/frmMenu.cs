@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace TareaDeCurso
 {
-    public partial class frmRegistro : Form
+    public partial class frmMenu : Form
     {
-        public frmRegistro()
+        public frmMenu()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

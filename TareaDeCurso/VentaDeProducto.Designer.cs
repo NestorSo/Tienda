@@ -1,6 +1,6 @@
 ﻿namespace TareaDeCurso
 {
-    partial class VentaDeProducto
+    partial class frmVentaDeProducto
     {
         /// <summary>
         /// Required designer variable.
@@ -186,6 +186,7 @@
             this.btnCargarLista.TabIndex = 10;
             this.btnCargarLista.Text = "Cargar a la Lista";
             this.btnCargarLista.UseVisualStyleBackColor = true;
+            this.btnCargarLista.Click += new System.EventHandler(this.btnCargarLista_Click);
             // 
             // btnBuscar
             // 
@@ -447,7 +448,7 @@
             this.label18.TabIndex = 30;
             this.label18.Text = "Tipo ";
             // 
-            // VentaDeProducto
+            // frmVentaDeProducto
             // 
             this.ClientSize = new System.Drawing.Size(1254, 552);
             this.Controls.Add(this.txtTipo);
@@ -476,7 +477,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel2);
-            this.Name = "VentaDeProducto";
+            this.Name = "frmVentaDeProducto";
             this.Text = "VentaDeRopa ";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
